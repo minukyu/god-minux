@@ -77,11 +77,13 @@ Android Test Application
 | `img_` | 실제사진이거나 아이콘형태가 아닌 일러스트형태의 이미지 |
 | `div_` | divider로 활용되는 이미지 |
 <br/>
+<br/>
    
 #### Background
 - 배경색이 pressed상태에 따라서 white -> sky_blue로 변하는 경우는 `bg_white_to_sky_blue.xml`로 한다.
 - 배경이 white색의 24dp로 테두리를 그리는 경우는 `bg_white_radius_24dp.xml`로 한다.
 - 배경이 투명하며 배경의 선만을 sky_blue색의 8dp로 테두리를 그리는 경우는 `bg_stroke_sky_blue_radius_8dp.xml`로 한다.
+<br/>
 <br/>
    
 #### 기타
@@ -101,6 +103,7 @@ Android Test Application
 - `<WHERE>_<DESCRIPTION>_<WHAT>`
 - 여러 군데에서 재사용되는 개념이라면 변수로 정의해서 `@dimen/xxx`와 같이 사용
 - 그렇지 않다면 명시적으로 `16dp`와 같이 작성
+<br/>
 <br/>
    
 #### Margin/Padding
@@ -219,15 +222,15 @@ Android Test Application
 - feature <br/>
   기능개발 브랜치 <br/>
   main에서 분할, 기능개발이 끝난 후 다시 main 으로 merge 하며 해당 브랜치는 삭제한다 <br/>
-  feature/{xxxxxx} => 브랜치 이름은 모듈명으로 한다 <br/>
-  ex) feature/login, feature/ride <br/>
+  feature/{지라티켓}-{모듈명} => 브랜치 이름은 모듈명으로 한다 <br/>
+  ex) feature/ALLEY-32-login, feature/ALLEY-55-map <br/>
   <br/>
   
 - fix <br/>
   기능수정 브랜치 <br/>
   main에서 분할, 기능수정이 끝난 후 다시 main 으로 merge 하며 해당 브랜치는 삭제한다 <br/>
-  fix/{xxxxxx} => 브랜치 이름은 모듈명으로 한다 <br/>
-  ex) fix/signin, fix/map <br/>
+  fix/{지라티켓}-{모듈명} => 브랜치 이름은 모듈명으로 한다 <br/>
+  ex) fix/ALLEY-345-splash, fix/ALLEY-234-payment <br/>
   <br/>
   
 - release <br/>
@@ -245,9 +248,8 @@ Android Test Application
 <br/>
 
 ### 커밋 컨벤션
-'{type}: {xxxx: 주제} /n <br/>
-{xxxxxxxxxxxxxxxxxxx: 커밋 세부 사항} /n <br/>
-#{1: 이슈넘버}
+'{ type }: { 지라티켓 번호 } /n <br/>
+{ xxxxxxxxxxxxxxxxxxx: 커밋 세부 사항 } /n <br/>
 <br/>
 
 ***커밋 타입***
