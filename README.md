@@ -277,6 +277,6 @@ Android Test Application
 모든 PR 발생 시 Android 팀원 모두에게 알린다. <br/>
 main브랜치에 merge할 때는 모든 팀원의 코드리뷰(approve)가 진행되고 난 이후 진행한다<br/>
 hotfix 브랜치의 경우 빠르게 모든 개발자들에게 사실을 알리고 Android 팀원 중 1인의 코드리뷰(approve)가 진행된 이후 병합한다.<br/>
-모든 PR은 작성자가 병합한다 <br/>
+모든 PR은 승인자가 병합한다 <br/>
 <br/>
 <br/>
