@@ -216,7 +216,7 @@ Android Test Application
 ### Branch 전략
 - main <br/>
   모든 브랜치들의 base 브랜치 <br/>
-  기능테스트/QA 는 main 브랜치에 목적브랜치가 병합할 때마다 진행한다 <br/>
+  작업 단위가 한 개이거나 기능테스트/QA 는 main 브랜치에 목적브랜치가 병합할 때마다 진행한다 <br/>
   <br/>
   
 - feature <br/>
@@ -244,6 +244,9 @@ Android Test Application
   긴급수정 브랜치 <br/>
   해당 버전이후의 main 브랜치에서 파생시키며, cherry-pick 으로 핫픽스 버전에 수정사항들을 적용시키고 main 에 병합한 후 삭제한다<br/>
   ex) hotfix/1.0.0 <br />
+  
+ 
+Local에는 현재 작업 중인 브랜치만 놨두고, Remote 에는 모든 브랜치들을 저장해둔다.
 <br/>
 <br/>
 
@@ -277,6 +280,7 @@ Android Test Application
 모든 PR 발생 시 Android 팀원 모두에게 알린다. <br/>
 main브랜치에 merge할 때는 모든 팀원의 코드리뷰(approve)가 진행되고 난 이후 진행한다<br/>
 hotfix 브랜치의 경우 빠르게 모든 개발자들에게 사실을 알리고 Android 팀원 중 1인의 코드리뷰(approve)가 진행된 이후 병합한다.<br/>
-모든 PR은 승인자가 병합한다 <br/>
+스쿼시 병합을 통해 
+
 <br/>
 <br/>
