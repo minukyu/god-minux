@@ -160,6 +160,7 @@ obj/
 .idea/encodings.xml
 .idea/misc.xml
 .idea/modules.xml
+
 .idea/scopes/scope_settings.xml
 .idea/dictionaries
 .idea/vcs.xml
@@ -172,6 +173,9 @@ obj/
 .idea/assetWizardSettings.xml
 .idea/gradle.xml
 .idea/jarRepositories.xml
+/.idea/.name
+/.idea/misc.xml
+# Comment next line if keeping position of elements in Navigation Editor is relevant for you
 .idea/navEditor.xml
 
 # Legacy Eclipse project files
